@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  Rabbitmq-test:
+    image: rabbitmq-delay-message-exchange
+    hostname: rabbitmq-test
+    # environment:
+    #   RABBITMQ_DEFAULT_USER: admin
+    #   RABBITMQ_DEFAULT_PASS: admin!@#_
+    ports:
+      - '5672:5672'
+      - '15672:15672'
+    labels:
+      NAME: 'rabbitmq-test'
+    volumes:
+      - './data:/var/lib/rabbitmq/mnesia/'
