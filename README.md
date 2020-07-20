@@ -10,7 +10,7 @@
 
 Clone project
 ```shell
-$ git clone https://gitlab.com/biznisid/biznis-mail-service.git
+$ git clone https://github.com/hafizhsb/rabbitmq-nodejs.git
 ```
 Install Dependencies
 ```shell
