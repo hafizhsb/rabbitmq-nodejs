@@ -17,6 +17,12 @@ Install Dependencies
 $ npm install
 ```
 
+To create Docker image rabbitMQ-delay execute:
+
+```shell
+$ docker build -t rabbitmq-delay-message-exchange .
+```
+
 To run rabbitMQ server execute:
 
 ```shell
